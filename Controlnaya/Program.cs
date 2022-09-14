@@ -14,13 +14,11 @@ string[] GetWordsStringArray(string[] array)
 {
     string word = "\0";
     int count = 0; // Переменная для создания нового массива строк
-    for (int i = 0; i < array.Length; i++) 
+    for (int i = 0; i < array.Length; i++)
     {
         word = array[i];
         if (word.Length <= 3)
-        {
             count++; // подсчет вхождений для создания возвращаемого массива строк
-        }
     }
 
     string[] finalArray = new string[count];
