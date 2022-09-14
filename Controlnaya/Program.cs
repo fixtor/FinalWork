@@ -1,6 +1,6 @@
 ﻿string[] strArray = { "Пт", "-2", ":)", "1112", "11", "Dj,", "Programming" }; // Введем случайный массив строк
 
-// string[] strArray = { "hello", "2", "world", ":-)" };
+//string[] strArray = { "hello", "2", "world", ":-)" }; Возможна проверка этими массивами из условия задачи
 //string[] strArray = { "1234", "1567", "-2", "computer science" };
 //string[] strArray = { "Russia", "Denmark", "Kazan" };
 
